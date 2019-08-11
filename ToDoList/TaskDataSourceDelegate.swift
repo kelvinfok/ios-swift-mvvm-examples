@@ -14,7 +14,7 @@ protocol TaskTappedDelegate: class {
 
 class TaskDataSourceDelegate: NSObject, UITableViewDelegate, UITableViewDataSource {
     
-    var viewModel: TasksViewModel
+    var viewModel: TasksViewModel!
     weak var delegate: TaskTappedDelegate?
     
     init(viewModel: TasksViewModel) {
@@ -41,9 +41,5 @@ class TaskDataSourceDelegate: NSObject, UITableViewDelegate, UITableViewDataSour
             tableView.reloadRows(at: [indexPath], with: .automatic)
         })
         tableView.deselectRow(at: indexPath, animated: true)
-    }
-    
-    
-    
-    
+    }    
 }

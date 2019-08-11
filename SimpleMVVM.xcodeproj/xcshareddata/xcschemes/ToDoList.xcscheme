@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DF16A0F22FD5834006D355D"
-               BuildableName = "TipCalculator.app"
-               BlueprintName = "TipCalculator"
+               BlueprintIdentifier = "8DF16A2722FD612F006D355D"
+               BuildableName = "ToDoList.app"
+               BlueprintName = "ToDoList"
                ReferencedContainer = "container:SimpleMVVM.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,33 +26,15 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DF16A3F22FD61B8006D355D"
-            BuildableName = "TipCalculatorTests.xctest"
-            BlueprintName = "TipCalculatorTests"
-            ReferencedContainer = "container:SimpleMVVM.xcodeproj">
-         </BuildableReference>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DCC0B0123004A1E00FC77F6"
-            BuildableName = "TasksTest.xctest"
-            BlueprintName = "TasksTest"
-            ReferencedContainer = "container:SimpleMVVM.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8DF16A3F22FD61B8006D355D"
-               BuildableName = "TipCalculatorTests.xctest"
-               BlueprintName = "TipCalculatorTests"
+               BlueprintIdentifier = "8DCC0B0123004A1E00FC77F6"
+               BuildableName = "TasksTest.xctest"
+               BlueprintName = "TasksTest"
                ReferencedContainer = "container:SimpleMVVM.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -60,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DF16A0F22FD5834006D355D"
-            BuildableName = "TipCalculator.app"
-            BlueprintName = "TipCalculator"
+            BlueprintIdentifier = "8DF16A2722FD612F006D355D"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
             ReferencedContainer = "container:SimpleMVVM.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,9 +65,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DF16A0F22FD5834006D355D"
-            BuildableName = "TipCalculator.app"
-            BlueprintName = "TipCalculator"
+            BlueprintIdentifier = "8DF16A2722FD612F006D355D"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
             ReferencedContainer = "container:SimpleMVVM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -102,9 +84,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8DF16A0F22FD5834006D355D"
-            BuildableName = "TipCalculator.app"
-            BlueprintName = "TipCalculator"
+            BlueprintIdentifier = "8DF16A2722FD612F006D355D"
+            BuildableName = "ToDoList.app"
+            BlueprintName = "ToDoList"
             ReferencedContainer = "container:SimpleMVVM.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

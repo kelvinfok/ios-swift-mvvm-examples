@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Task {
+struct Task: Equatable {
     let title: String
     var isCompleted: Bool
     let notes: String
@@ -27,7 +27,7 @@ class TasksViewModel {
         // addDummyDataIfNeeded()
     }
     
-    private func addDummyDataIfNeeded() {
+    func addDummyDataIfNeeded() {
         guard self.tasks.isEmpty == true else { return }
         for i in 0..<10 {
             let task = Task(title: "Task \(i)", isCompleted: false, notes: "This is a sample task.")

@@ -14,6 +14,8 @@
 		8D8AB30A22FD3743003ECBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8AB30822FD3743003ECBAC /* LaunchScreen.storyboard */; };
 		8D8AB31222FD37AC003ECBAC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AB31122FD37AC003ECBAC /* Model.swift */; };
 		8D8AB31422FD387C003ECBAC /* SimpleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8AB31322FD387C003ECBAC /* SimpleListViewModel.swift */; };
+		8DCC0B0523004A1E00FC77F6 /* TasksTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC0B0423004A1E00FC77F6 /* TasksTest.swift */; };
+		8DCC0B0D230054C100FC77F6 /* DataSourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC0B0C230054C100FC77F6 /* DataSourceTest.swift */; };
 		8DF16A1322FD5834006D355D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF16A1222FD5834006D355D /* AppDelegate.swift */; };
 		8DF16A1522FD5834006D355D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF16A1422FD5834006D355D /* ViewController.swift */; };
 		8DF16A1822FD5834006D355D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF16A1622FD5834006D355D /* Main.storyboard */; };
@@ -32,6 +34,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8DCC0B0723004A1E00FC77F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D8AB2F422FD3742003ECBAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DF16A2722FD612F006D355D;
+			remoteInfo = ToDoList;
+		};
 		8DF16A4522FD61B8006D355D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8D8AB2F422FD3742003ECBAC /* Project object */;
@@ -51,6 +60,10 @@
 		8D8AB30B22FD3743003ECBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8AB31122FD37AC003ECBAC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		8D8AB31322FD387C003ECBAC /* SimpleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListViewModel.swift; sourceTree = "<group>"; };
+		8DCC0B0223004A1E00FC77F6 /* TasksTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCC0B0423004A1E00FC77F6 /* TasksTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTest.swift; sourceTree = "<group>"; };
+		8DCC0B0623004A1E00FC77F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCC0B0C230054C100FC77F6 /* DataSourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceTest.swift; sourceTree = "<group>"; };
 		8DF16A1022FD5834006D355D /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF16A1222FD5834006D355D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF16A1422FD5834006D355D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +89,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		8D8AB2F922FD3742003ECBAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCC0AFF23004A1E00FC77F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -113,6 +133,7 @@
 				8DF16A1122FD5834006D355D /* TipCalculator */,
 				8DF16A2922FD612F006D355D /* ToDoList */,
 				8DF16A4122FD61B8006D355D /* TipCalculatorTests */,
+				8DCC0B0323004A1E00FC77F6 /* TasksTest */,
 				8D8AB2FD22FD3742003ECBAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 				8DF16A1022FD5834006D355D /* TipCalculator.app */,
 				8DF16A2822FD612F006D355D /* ToDoList.app */,
 				8DF16A4022FD61B8006D355D /* TipCalculatorTests.xctest */,
+				8DCC0B0223004A1E00FC77F6 /* TasksTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +163,16 @@
 				8D8AB31322FD387C003ECBAC /* SimpleListViewModel.swift */,
 			);
 			path = SimpleMVVM;
+			sourceTree = "<group>";
+		};
+		8DCC0B0323004A1E00FC77F6 /* TasksTest */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC0B0423004A1E00FC77F6 /* TasksTest.swift */,
+				8DCC0B0623004A1E00FC77F6 /* Info.plist */,
+				8DCC0B0C230054C100FC77F6 /* DataSourceTest.swift */,
+			);
+			path = TasksTest;
 			sourceTree = "<group>";
 		};
 		8DF16A1122FD5834006D355D /* TipCalculator */ = {
@@ -201,6 +233,24 @@
 			productName = "project-1";
 			productReference = 8D8AB2FC22FD3742003ECBAC /* SimpleMVVM.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8DCC0B0123004A1E00FC77F6 /* TasksTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DCC0B0B23004A1E00FC77F6 /* Build configuration list for PBXNativeTarget "TasksTest" */;
+			buildPhases = (
+				8DCC0AFE23004A1E00FC77F6 /* Sources */,
+				8DCC0AFF23004A1E00FC77F6 /* Frameworks */,
+				8DCC0B0023004A1E00FC77F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DCC0B0823004A1E00FC77F6 /* PBXTargetDependency */,
+			);
+			name = TasksTest;
+			productName = TasksTest;
+			productReference = 8DCC0B0223004A1E00FC77F6 /* TasksTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8DF16A0F22FD5834006D355D /* TipCalculator */ = {
 			isa = PBXNativeTarget;
@@ -267,6 +317,10 @@
 					8D8AB2FB22FD3742003ECBAC = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					8DCC0B0123004A1E00FC77F6 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8DF16A2722FD612F006D355D;
+					};
 					8DF16A0F22FD5834006D355D = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -296,6 +350,7 @@
 				8DF16A0F22FD5834006D355D /* TipCalculator */,
 				8DF16A2722FD612F006D355D /* ToDoList */,
 				8DF16A3F22FD61B8006D355D /* TipCalculatorTests */,
+				8DCC0B0123004A1E00FC77F6 /* TasksTest */,
 			);
 		};
 /* End PBXProject section */
@@ -308,6 +363,13 @@
 				8D8AB30A22FD3743003ECBAC /* LaunchScreen.storyboard in Resources */,
 				8D8AB30722FD3743003ECBAC /* Assets.xcassets in Resources */,
 				8D8AB30522FD3742003ECBAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCC0B0023004A1E00FC77F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +414,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DCC0AFE23004A1E00FC77F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCC0B0D230054C100FC77F6 /* DataSourceTest.swift in Sources */,
+				8DCC0B0523004A1E00FC77F6 /* TasksTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8DF16A0C22FD5834006D355D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,6 +456,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8DCC0B0823004A1E00FC77F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DF16A2722FD612F006D355D /* ToDoList */;
+			targetProxy = 8DCC0B0723004A1E00FC77F6 /* PBXContainerItemProxy */;
+		};
 		8DF16A4622FD61B8006D355D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8DF16A0F22FD5834006D355D /* TipCalculator */;
@@ -594,6 +670,44 @@
 			};
 			name = Release;
 		};
+		8DCC0B0923004A1E00FC77F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TasksTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinfok.TasksTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Debug;
+		};
+		8DCC0B0A23004A1E00FC77F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TasksTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kelvinfok.TasksTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Release;
+		};
 		8DF16A1F22FD5836006D355D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,6 +831,15 @@
 			buildConfigurations = (
 				8D8AB30F22FD3743003ECBAC /* Debug */,
 				8D8AB31022FD3743003ECBAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DCC0B0B23004A1E00FC77F6 /* Build configuration list for PBXNativeTarget "TasksTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DCC0B0923004A1E00FC77F6 /* Debug */,
+				8DCC0B0A23004A1E00FC77F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>TasksTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>TipCalculator.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -32,7 +37,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8DCC0B0123004A1E00FC77F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8DF16A0F22FD5834006D355D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DF16A2722FD612F006D355D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
